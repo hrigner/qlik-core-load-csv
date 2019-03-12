@@ -1,0 +1,36 @@
+{
+  "name": "qlik-core-load-csv",
+  "private": true,
+  "version": "0.0.1",
+  "author": "Helene Rignér",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "start": "parcel src/index.html"
+  },
+  "dependencies": {
+    "picasso.js": "0.20.0",
+    "picasso-plugin-q": "0.20.0",
+    "react": "16.8.4",
+    "react-dom": "16.8.4",
+    "enigma.js": "2.4.0",
+    "react-use-promise": "0.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.2",
+    "@babel/plugin-proposal-class-properties": "7.3.4",
+    "@babel/plugin-transform-async-to-generator": "7.3.4",
+    "@babel/plugin-transform-react-jsx": "7.3.0",
+    "@babel/plugin-transform-runtime": "7.3.4",
+    "@babel/preset-env": "7.3.1",
+    "@babel/preset-react": "7.0.0",
+    "babel-eslint": "10.0.1",
+    "eslint": "5.15.1",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-plugin-import": "2.16.0",
+    "eslint-plugin-jsx-a11y": "6.2.1",
+    "eslint-plugin-react": "7.12.4",
+    "parcel-bundler": "1.12.0"
+  }
+}
