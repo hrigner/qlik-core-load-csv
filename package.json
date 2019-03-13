@@ -5,16 +5,17 @@
   "author": "Helene Rignér",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint .",
-    "lint:fix": "eslint --fix .",
+    "lint": "eslint --ext .js,.jsx .",
+    "lint:fix": "eslint --ext .js,.jsx --fix .",
     "start": "parcel src/index.html"
   },
   "dependencies": {
-    "picasso.js": "0.20.0",
-    "picasso-plugin-q": "0.20.0",
-    "react": "16.8.4",
-    "react-dom": "16.8.4",
     "enigma.js": "2.4.0",
+    "picasso-plugin-q": "0.20.0",
+    "picasso.js": "0.20.0",
+    "react": "n16.8.4",
+    "react-dom": "16.8.4",
+    "react-svg-inline": "2.1.1",
     "react-use-promise": "0.1.2"
   },
   "devDependencies": {
@@ -31,6 +32,7 @@
     "eslint-plugin-import": "2.16.0",
     "eslint-plugin-jsx-a11y": "6.2.1",
     "eslint-plugin-react": "7.12.4",
-    "parcel-bundler": "1.12.0"
+    "parcel-bundler": "1.12.0",
+    "parcel-plugin-inlinesvg": "0.1.1"
   }
 }

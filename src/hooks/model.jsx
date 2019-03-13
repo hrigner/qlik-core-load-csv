@@ -1,4 +1,3 @@
-import { useMemo } from 'react';
 import usePromise from 'react-use-promise';
 
 export default function useModel(app, def) {

@@ -1,3 +1,9 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  background: #d1d1d1;
+}
+
 .chart {
   background: #f1f1f1;
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.7);
@@ -8,10 +14,45 @@
   width: calc(100vw - 2rem);
   height: calc(50vh - 2rem);  
   position: relative;
+  text-align: center;
+  outline: none;
 }
 
-.chart > div {
+.text-div {
+  height: 50%;
+  top: 50%;
+  position: relative;
+  color: #244b5a;
+}
+
+.chart-div {
   width: 100%;
   height: 100%;
   position: relative;
+  color: #244b5a;
+}
+
+.header {
+  height: 80px;
+  background: linear-gradient(to right, rgba(16,207,201,0.92), rgba(101,93,198, 0.92) );
+  display: flex;
+  justify-content: center;
+  padding: 15px 250px;
+  box-sizing: border-box;
+  flex: 0 0 auto;
+}
+
+.content {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 496px;
+  padding-bottom: 50px;
+  overflow-y: auto;
+}
+
+.logo-svg {
+  height: 50px;
 }
